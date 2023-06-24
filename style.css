@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f1e9;
+}
+
+.blog_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar_list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15rem;
+  height: 35px;
+  list-style-type: none;
+  margin-bottom: 4rem;
+  margin-left: -30rem;
+}
+
+.navbar_list li {
+  margin-top: 10px;
+  height: 100%;
+}
+
+.navbar_list a {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 15px;
+  font-family: "Darker Grotesque", sans-serif;
+  color: #beb7ad;
+  text-transform: uppercase;
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.navbar_list a:hover {
+  color: #ad6f7d;
+}
+
+.publications_body {
+  width: 65vw;
+  height: 100vh;
+  margin-top: 3rem;
+}
+
+.publication {
+  display: flex;
+  flex-direction: column;
+}
+
+.publication_header {
+  display: flex;
+  align-items: center;
+}
+
+.publication_header_date {
+  margin-left: -60px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #788154;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 700;
+  color: #f3f1e9;
+}
+
+.publication_header_date span {
+  background: none;
+}
+
+.publication_header_title {
+  margin-left: 30px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #654539;
+  margin-bottom: 15px;
+}
+
+.publication_text {
+  background-color: #fffff9;
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #654539;
+  text-align: justify;
+}
+
+.publication_area_footer {
+  background-color: #fffff9;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.publication_area_footer span {
+  background: none;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #beb7ad;
+  margin-right: 60px;
+  text-transform: uppercase;
+}
+
+.publication_area_footer_tags {
+  display: flex;
+  justify-content: space-evenly;
+  background: none;
+}
+
+.publication_area_footer_tags a {
+  margin-right: 20px;
+  background: #d9d69d;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
