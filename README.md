@@ -1,6 +1,7 @@
 # allanina.blog 🏗️ (em construção)
 
 Estrutura do blog allanina.net que hospedará além de um blog com postagens padrão, meu portifólio e currículo.
+A meta é utilizar esse layout no blogger, onde eu possuo o dommínio https://allanina.net
 
 Projeto desenvolvido com html e css, com a interface desenvolvida por mim utilizando o figma.
 
